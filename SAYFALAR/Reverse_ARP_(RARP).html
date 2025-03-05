@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Reverse Arp</h1>
+    <img src="../Resimler/Reverse_ARP.png" alt="REVERSE ARP Görseli">
+
+    <h3>Tanımı:</h3>
+    <p>Reverse ARP (RARP - Ters ARP), bir cihazın kendi MAC adresine karşılık gelen IP adresini öğrenmesini sağlayan eski bir protokoldür.
+     Normal ARP'nin tam tersine çalışır; yani, cihaz MAC adresini bilir ancak IP adresini bilmez.</p>
+
+     <h3>RARP’nin Çalışma Mantığı:</h3>
+
+     <h5>1. Cihaz MAC adresini gönderir:</h5>
+     <p>Yeni açılan veya diskte IP adresi saklayamayan bir cihaz, ağdaki bir RARP sunucusuna MAC adresini içeren bir RARP isteği (RARP Request) gönderir.</p>
+     
+     <h5>2. RARP Sunucusu IP adresini döndürür: </h5>
+     <p>Ağ yöneticisi tarafından önceden yapılandırılmış bir RARP sunucusu, MAC adresine karşılık gelen IP adresini içeren RARP yanıtı (RARP Reply) gönderir.</p>
+
+     <h5>3. Cihaz IP adresini alır:</h5>
+     <p>ihaz, aldığı IP adresini kullanarak ağ iletişimine başlar.</p>
+
+     <h3>RARP Kullanım Alanları:</h3>
+     <p>- Disksiz (diskless) cihazlar: IP adreslerini kendi başlarına depolayamadıkları için RARP kullanarak ağ üzerinden adres alırlar.</p>
+     <p>- Eski sistemler: Günümüzde DHCP gibi daha gelişmiş protokoller kullanıldığı için RARP artık yaygın değildir.</p>
+
+     <h3>RARP’nin Dezavantajları:</h3>
+     <p>RARP sunucusu gerektirir: Her ağda en az bir RARP sunucusunun yapılandırılması gerekir.</p>
+     <p>Sadece IP adresi sağlar: DHCP gibi ek bilgiler (alt ağ maskesi, varsayılan ağ geçidi, DNS) sağlamaz.</p>
+     <p>Yerini DHCP ve BOOTP aldı: Daha esnek ve yönetimi kolay protokoller olan DHCP (Dynamic Host Configuration Protocol) ve BOOTP (Bootstrap Protocol), RARP’nin yerini almıştır.</p>
+     
+     
+     
+     <a href="../index.html">Ana Sayfaya Dön</a>
+</body>
+</html>

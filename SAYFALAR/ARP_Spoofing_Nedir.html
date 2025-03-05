@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ARP Spoofing (ARP Zehirleme)</h1>
+
+    <img src="../Resimler/ARP_Spoofing.png" alt="ARP SPOOFING Görseli">
+
+    <h3>Tanımı</h3>
+
+    <p>ARP Spoofing (ARP Zehirleme), kötü niyetli bir saldırganın yanlış MAC adreslerini ARP tablosuna ekleterek ağ trafiğini yönlendirmesi veya
+         dinlemesi için yapılan bir siber saldırıdır.</p>
+
+         <h3>ARP Spoofing Nasıl Çalışır?</h3>
+
+         <h5>Saldırgan, sahte ARP yanıtları gönderir:</h5>
+         <p>Ağdaki cihazları, saldırganın MAC adresini yanlışlıkla ağ geçidi (router) veya başka bir cihaz olarak kaydetmeye zorlar.</p>
+
+         <h5>Yanlış yönlendirme gerçekleşir:</h5>
+         <p>Hedef cihazlar, saldırganın cihazını gerçek hedef gibi görerek ona veri göndermeye başlar.</p>
+
+         <h5>Saldırgan trafiği ele geçirir veya değiştirir:</h5>
+         <p>Man-in-the-Middle (MITM) saldırısı yapılarak veri dinlenebilir, değiştirebilir veya kötü amaçlı işlemler gerçekleştirilebilir.</p>
+
+         <h3>ARP Spoofing Saldırılarıyla Neler Yapılabilir?</h3>
+         <p> Trafik dinleme (Sniffing) → Kullanıcı adı, şifre gibi hassas bilgileri çalma.</p>
+         <p>Oturum ele geçirme (Session Hijacking) → Kullanıcıların oturumlarını çalma.</p>
+         <p>Hizmet reddi saldırıları (DoS Attack) → Ağı kullanılamaz hale getirme.</p>
+         <p>Veri manipülasyonu → Gönderilen verileri değiştirme.</p>
+
+         <h3></h3>
+         <p>Statik ARP tabloları kullanın: Manuel olarak IP-MAC eşleşmeleri yapılandırılabilir.</p>
+         <p>ARP Denetim Araçları (ARP Watch, XArp) kullanın: Şüpheli ARP değişikliklerini tespit eder.</p>
+         <p> VPN kullanın: Şifreli trafik saldırıyı etkisiz hale getirir.</p>
+         <p>Port güvenliği etkinleştirin: Yönetilen switch’lerde belirli MAC adreslerini sabitleyin.</p>
+         <p> Dynamic ARP Inspection (DAI) kullanın: Cisco gibi gelişmiş ağ cihazları, sahte ARP paketlerini engelleyebilir.</p>
+
+         <a href="../index.html">Ana Sayfaya Dön</a>
+</body>
+</html>

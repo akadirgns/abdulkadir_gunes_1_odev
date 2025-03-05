@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal ARP</title>
+</head>
+<body>
+    <h1>Normal ARP</h1>
+
+    <img src="../Resimler/Normal_Arp.jpeg" alt="NORMAL ARP Görseli">
+    <h3>Tanımı:</h3>
+    <p>Normal ARP (Address Resolution Protocol), IP adreslerini MAC adreslerine çevirmek için kullanılan temel ARP çeşididir.
+     Bir cihaz, aynı ağdaki başka bir cihazın MAC adresini öğrenmek istediğinde ARP Request gönderir ve hedef cihazdan ARP Reply alarak iletişime geçer.</p>
+
+     <h3>Normal ARP'nin Çalışma Mantığı:</h3>
+
+     <p>ARP Request (İstek Gönderme):</p>
+     <p>Bir cihaz, belirli bir IP adresine sahip bir cihazla iletişim kurmak istediğinde, onun MAC adresini öğrenmesi gerekir.</p>
+     <p>Ağdaki tüm cihazlara (broadcast) bir ARP isteği gönderir:</p>
+     <p>"Bu IP adresine sahip cihazın MAC adresi nedir?"</p>
+
+     <h3>ARP Reply (Yanıt Alma):</h3>
+     <p>Hedef cihaz, kendi MAC adresini içeren bir ARP yanıtı gönderir.</p>
+     <p>Bu yanıt yalnızca isteği gönderen cihaza ulaşır (unicast).</p>
+     <p>Önbelleğe Kaydetme:</p>
+     <p>Cihaz, aldığı MAC adresini kendi ARP önbelleğine kaydeder.
+        Böylece, aynı cihaza tekrar veri göndermesi gerektiğinde yeniden ARP sorgusu yapmasına gerek kalmaz.</p>
+
+     <a href="../index.html">Ana Sayfaya Dön</a>
+
+</body>
+</html>

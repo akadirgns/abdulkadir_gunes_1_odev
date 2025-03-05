@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Proxy ARP</h1>
+
+    <img src="../Resimler/Proxy_ARP.png" alt="PROXY ARP Görseli">
+
+    <h3>Tanımı</h3>
+    <p>Proxy ARP, bir yönlendiricinin (router) veya cihazın, başka bir ağdaki cihazlar adına ARP yanıtı vermesine olanak tanıyan bir tekniktir.</p>
+
+    <h3>Proxy ARP Nasıl Çalışır?</h3>
+    <p>Bir cihaz, belirli bir IP adresine sahip başka bir cihazın MAC adresini öğrenmek için ARP Request (ARP isteği) gönderir.</p>
+    <p>Hedef cihaz farklı bir ağdaysa, yönlendirici (router) veya Proxy ARP etkinleştirilmiş bir cihaz kendini o IP adresinin sahibi gibi göstererek ARP Reply (ARP yanıtı) gönderir.</p>
+    <p>İsteği yapan cihaz, artık bu yönlendiriciye veri göndermeye başlar ve yönlendirici paketi hedef ağa iletir.</p>
+
+    <h3>Proxy ARP’nin Kullanım Alanları</h3>
+    <p>Farklı ağları birbirine bağlama → Varsayılan ağ geçidi tanımlamaya gerek kalmadan iki farklı alt ağı konuşturabilir.</p>
+    <p>Ağ segmentlerini genişletme → Aynı ağ gibi davranarak cihazların doğrudan iletişimini sağlar.</p>
+    <p> IP adresi yapılandırması olmayan cihazlar için çözüm sunma → Bazı eski sistemlerde manuel yapılandırma yerine otomatik iletişim sağlar.</p>
+
+    <h3>Proxy ARP’nin Dezavantajları</h3>
+    <p>Güvenlik açığı oluşturabilir → ARP Spoofing saldırılarına açık olabilir.</p>
+    <p>ğ trafiğini artırabilir → Büyük ağlarda gereksiz ARP trafiği oluşturabilir.</p>
+    <p>Yönetimi zor olabilir → DHCP veya statik yönlendirme gibi çözümler daha güvenli ve yönetilebilir olabilir.</p>
+    <a href="../index.html">Ana Sayfaya Dön</a>
+</body>
+</html>
