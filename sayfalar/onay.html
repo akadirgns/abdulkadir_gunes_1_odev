@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onay Kayıt</title>
+</head>
+<body>
+
+    <a href="../index.html">ANA SAYFA</a>
+    <a href="">   <BR></BR>   </a>
+    <ul>
+        <li><a href="../index.html#takımlar">TAKIM YAPISI VE TAKIMLAR</a> </li>
+            
+        <li><a href="../index.html#Pistler">PİSTLER</a></li>
+    </ul>
+    <a href="kayıt.html">KAYIT SAYFASI</a>
+    <a href="">   <BR></BR>   </a>
+    <h2>Kaydınız Onaylanmıştır, Tebrikler ...</h2>
+
+    <style>
+        body {
+          background-color: #2b2b2b; 
+          color: white;
+        }
+        
+        a {
+            color: red;
+        }
+        
+        h3{
+          color: red;
+        }
+
+    </style>
+
+    <script>
+        var degerler = new URLSearchParams(window.location.search);
+        var ad = degerler.get('isim');
+        var eposta = degerler.get('eposta');
+        
+        document.write("<p>Kaydınız Oluşturulmuştur. Tebrikler :) <3 <3 <3 <3</p>");
+
+            document.write("<p>Adınız: "+ad+ "</p>");
+
+            document.write("<p> Eposta Adresiniz : "+eposta+ "</p>");
+
+            document.write("<p> Olarak Kaydedildiniz: "+" </p>");
+
+
+    </script>
+</body>
+</html>
