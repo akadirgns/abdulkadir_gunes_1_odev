@@ -1,0 +1,36 @@
+footer {
+    background-color: #8f2a2a;
+    color: #fff;
+    padding: 40px 20px;
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-sol,
+  .footer-orta {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+     width: 50%;
+  }
+
+  .footer-orta ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-orta a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  
+  
