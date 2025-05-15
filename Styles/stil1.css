@@ -4,8 +4,7 @@ ul.bir {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 0;
-  margin: 0;
+  
 
  
 }
